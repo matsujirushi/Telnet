@@ -24,3 +24,6 @@ PrimS.Telnet.solution-user.settings.xml
 *.suo
 *.dg
 /PrimS.Telnet.NetStandard/project.lock.json
+/PrimS.Telnet.NetStandard.CiTests/obj
+/PrimS.Telnet.NetStandard.CiTests/bin
+/_NCrunch_PrimS.Telnet

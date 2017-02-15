@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "FluentAssertions": "4.19.0",
+    "MSTest.TestAdapter": "1.1.10-rc2",
+    "MSTest.TestFramework": "1.0.8-rc2",
+    "NETStandard.Library": {
+      "type": "platform",
+      "version": "1.6.0"
+    },
+    "PrimS.Telnet.NetStandard": "0.7.1-*",
+    "System.Net.NameResolution": "4.0.0",
+    "System.Threading": "4.3.0",
+    "System.Threading.Thread": "4.3.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
