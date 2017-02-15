@@ -4,7 +4,6 @@
     "LiteGuard": "1.1.0"
   },
   "frameworks": {
-    "net451": {},
     "netstandard1.6": {
       "imports": "dnxcore50",
       "dependencies": {
@@ -18,7 +17,8 @@
         "NETStandard.Library": "1.5.0-rc2-24027",
         "System.Threading.Thread": "4.3.0"
       }
-    }
+    },
+    "net451": {}
   },
   "buildOptions": {
     "define": [ "ASYNC" ]

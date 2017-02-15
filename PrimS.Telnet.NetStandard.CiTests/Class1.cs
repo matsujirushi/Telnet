@@ -7,14 +7,16 @@
   using System.Text.RegularExpressions;
   using System.Diagnostics.CodeAnalysis;
   using Telnet.CiTests;
-  using Microsoft.VisualStudio.TestTools.UnitTesting;
+  //using Microsoft.VisualStudio.TestTools.UnitTesting;
+  using Xunit;
 
-  [TestClass]
+  //[TestClass]
   public class WithClient
   {
     private const int TimeoutMs = 100;
 
-    [TestMethod]
+    //[TestMethod]
+    [Fact]
     public void ShouldConnect()
     {
       using (TelnetServer server = new TelnetServer())
